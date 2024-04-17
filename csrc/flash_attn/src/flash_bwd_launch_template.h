@@ -4,7 +4,7 @@
 
 #pragma once
 
-#include <ATen/cuda/CUDAContext.h>
+#include "cuda_utils.h"
 
 #include "static_switch.h"
 #include "flash.h"

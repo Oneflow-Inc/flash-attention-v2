@@ -4,10 +4,11 @@
 
 #pragma once
 
-#include <ATen/cuda/CUDAContext.h>
+#include "cuda_utils.h"
 
 #include "static_switch.h"
 #include "flash.h"
+#include "random_utils.h"
 #include "flash_fwd_kernel.h"
 
 // Determine if the architecture supports FLASH and define a macro to handle parameter modifiers
